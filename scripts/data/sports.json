@@ -1,0 +1,14 @@
+[
+  { "id": "american_football", "name": "American Football" },
+  { "id": "aussie_rules", "name": "Aussie Rules" },
+  { "id": "baseball", "name": "Baseball" },
+  { "id": "basketball", "name": "Basketball" },
+  { "id": "boxing", "name": "Boxing" },
+  { "id": "cricket", "name": "Cricket" },
+  { "id": "golf", "name": "Golf" },
+  { "id": "ice_hockey", "name": "Ice Hockey" },
+  { "id": "mixed_martial arts", "name": "Mixed Martial Arts" },
+  { "id": "politics", "name": "Politics" },
+  { "id": "rugby_league", "name": "Rugby League" },
+  { "id": "soccer", "name": "Soccer" }
+]

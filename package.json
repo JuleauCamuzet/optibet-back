@@ -12,9 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/pg": "^8.11.10",
+    "dotenv": "^16.4.5",
+    "pg": "^8.13.0",
     "prettier": "^3.3.3",
     "ts-node": "^10.9.2",
-    "typecript": "^0.0.1-security"
+    "typecript": "^0.0.1-security",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.6.0",

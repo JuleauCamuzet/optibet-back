@@ -1,0 +1,172 @@
+[
+  { "id": "1", "team_name": "Angus Hewett", "odd": 4.87, "bookmaker_id": "4" },
+  {
+    "id": "2",
+    "team_name": "Merritt Panthers",
+    "odd": 3.12,
+    "bookmaker_id": "8"
+  },
+  {
+    "id": "3",
+    "team_name": "Caldwell Rangers",
+    "odd": 2.94,
+    "bookmaker_id": "15"
+  },
+  {
+    "id": "4",
+    "team_name": "Newark Strikers",
+    "odd": 4.01,
+    "bookmaker_id": "7"
+  },
+  {
+    "id": "5",
+    "team_name": "Bexley Defenders",
+    "odd": 2.75,
+    "bookmaker_id": "12"
+  },
+  {
+    "id": "6",
+    "team_name": "Norfolk Falcons",
+    "odd": 3.66,
+    "bookmaker_id": "3"
+  },
+  {
+    "id": "7",
+    "team_name": "Somerset Gladiators",
+    "odd": 4.55,
+    "bookmaker_id": "2"
+  },
+  {
+    "id": "8",
+    "team_name": "Lancaster Lions",
+    "odd": 3.89,
+    "bookmaker_id": "10"
+  },
+  {
+    "id": "9",
+    "team_name": "Yorkshire Titans",
+    "odd": 2.41,
+    "bookmaker_id": "5"
+  },
+  {
+    "id": "10",
+    "team_name": "Cotswold Foxes",
+    "odd": 4.23,
+    "bookmaker_id": "13"
+  },
+  {
+    "id": "11",
+    "team_name": "Oxford Eagles",
+    "odd": 3.77,
+    "bookmaker_id": "1"
+  },
+  {
+    "id": "12",
+    "team_name": "Chesterfield Bears",
+    "odd": 4.12,
+    "bookmaker_id": "14"
+  },
+  {
+    "id": "13",
+    "team_name": "Kent Warriors",
+    "odd": 3.06,
+    "bookmaker_id": "9"
+  },
+  {
+    "id": "14",
+    "team_name": "Durham Wolves",
+    "odd": 4.76,
+    "bookmaker_id": "6"
+  },
+  {
+    "id": "15",
+    "team_name": "Brighton Vipers",
+    "odd": 2.52,
+    "bookmaker_id": "11"
+  },
+  {
+    "id": "16",
+    "team_name": "Winchester Hawks",
+    "odd": 4.64,
+    "bookmaker_id": "17"
+  },
+  {
+    "id": "17",
+    "team_name": "Coventry Dragons",
+    "odd": 3.32,
+    "bookmaker_id": "18"
+  },
+  {
+    "id": "18",
+    "team_name": "Cambridge Thunder",
+    "odd": 2.68,
+    "bookmaker_id": "19"
+  },
+  {
+    "id": "19",
+    "team_name": "Exeter Phoenix",
+    "odd": 4.89,
+    "bookmaker_id": "16"
+  },
+  {
+    "id": "20",
+    "team_name": "Derby Chargers",
+    "odd": 3.88,
+    "bookmaker_id": "20"
+  },
+  {
+    "id": "21",
+    "team_name": "Lichfield Stallions",
+    "odd": 3.15,
+    "bookmaker_id": "12"
+  },
+  {
+    "id": "22",
+    "team_name": "Stirling Bulls",
+    "odd": 4.02,
+    "bookmaker_id": "14"
+  },
+  {
+    "id": "23",
+    "team_name": "Edinburgh Titans",
+    "odd": 2.37,
+    "bookmaker_id": "9"
+  },
+  {
+    "id": "24",
+    "team_name": "Glasgow Sharks",
+    "odd": 4.45,
+    "bookmaker_id": "5"
+  },
+  { "id": "25", "team_name": "Perth Miners", "odd": 3.27, "bookmaker_id": "2" },
+  {
+    "id": "26",
+    "team_name": "Dundee Pirates",
+    "odd": 2.83,
+    "bookmaker_id": "10"
+  },
+  {
+    "id": "27",
+    "team_name": "Aberdeen Stallions",
+    "odd": 3.9,
+    "bookmaker_id": "1"
+  },
+  {
+    "id": "28",
+    "team_name": "Inverness Ravens",
+    "odd": 4.5,
+    "bookmaker_id": "4"
+  },
+  {
+    "id": "29",
+    "team_name": "Carlisle Comets",
+    "odd": 3.08,
+    "bookmaker_id": "8"
+  },
+  {
+    "id": "30",
+    "team_name": "Newcastle Eagles",
+    "odd": 4.78,
+    "bookmaker_id": "6"
+  }
+]
