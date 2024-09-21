@@ -1,0 +1,486 @@
+[
+    {
+      "key": "americanfootball_cfl",
+      "sport_id": "american_football",
+      "name": "CFL",
+      "description": "Canadian Football League",
+      "id": 0
+    },
+    {
+      "key": "americanfootball_ncaaf",
+      "sport_id": "american_football",
+      "name": "NCAAF",
+      "description": "US College Football",
+      "id": 1
+    },
+    {
+      "key": "americanfootball_ncaaf_championship_winner",
+      "sport_id": "american_football",
+      "name": "NCAAF Championship Winner",
+      "description": "US College Football Championship Winner",
+      "id": 2
+    },
+    {
+      "key": "americanfootball_nfl",
+      "sport_id": "american_football",
+      "name": "NFL",
+      "description": "US Football",
+      "id": 3
+    },
+    {
+      "key": "americanfootball_nfl_super_bowl_winner",
+      "sport_id": "american_football",
+      "name": "NFL Super Bowl Winner",
+      "description": "Super Bowl Winner 2024/2025",
+      "id": 4
+    },
+    {
+      "key": "aussierules_afl",
+      "sport_id": "aussie_rules",
+      "name": "AFL",
+      "description": "Aussie Football",
+      "id": 5
+    },
+    {
+      "key": "baseball_milb",
+      "sport_id": "baseball",
+      "name": "MiLB",
+      "description": "Minor League Baseball",
+      "id": 6
+    },
+    {
+      "key": "baseball_mlb",
+      "sport_id": "baseball",
+      "name": "MLB",
+      "description": "Major League Baseball",
+      "id": 7
+    },
+    {
+      "key": "baseball_mlb_world_series_winner",
+      "sport_id": "baseball",
+      "name": "MLB World Series Winner",
+      "description": "World Series Winner 2024",
+      "id": 8
+    },
+    {
+      "key": "basketball_nba",
+      "sport_id": "basketball",
+      "name": "NBA",
+      "description": "US Basketball",
+      "id": 9
+    },
+    {
+      "key": "basketball_nba_championship_winner",
+      "sport_id": "basketball",
+      "name": "NBA Championship Winner",
+      "description": "Championship Winner 2024/2025",
+      "id": 10
+    },
+    {
+      "key": "basketball_ncaab_championship_winner",
+      "sport_id": "basketball",
+      "name": "NCAAB Championship Winner",
+      "description": "US College Basketball Championship Winner",
+      "id": 11
+    },
+    {
+      "key": "basketball_wnba",
+      "sport_id": "basketball",
+      "name": "WNBA",
+      "description": "US Basketball",
+      "id": 12
+    },
+    {
+      "key": "boxing_boxing",
+      "sport_id": "boxing",
+      "name": "Boxing",
+      "description": "Boxing Bouts",
+      "id": 13
+    },
+    {
+      "key": "cricket_caribbean_premier_league",
+      "sport_id": "cricket",
+      "name": "CPLT20",
+      "description": "Caribbean Premier League",
+      "id": 14
+    },
+    {
+      "key": "cricket_odi",
+      "sport_id": "cricket",
+      "name": "One Day Internationals",
+      "description": "One Day Internationals",
+      "id": 15
+    },
+    {
+      "key": "cricket_test_match",
+      "sport_id": "cricket",
+      "name": "Test Matches",
+      "description": "International Test Matches",
+      "id": 16
+    },
+    {
+      "key": "golf_masters_tournament_winner",
+      "sport_id": "golf",
+      "name": "Masters Tournament Winner",
+      "description": "2025 Winner",
+      "id": 17
+    },
+    {
+      "key": "golf_pga_championship_winner",
+      "sport_id": "golf",
+      "name": "PGA Championship Winner",
+      "description": "2025 Winner",
+      "id": 18
+    },
+    {
+      "key": "icehockey_nhl",
+      "sport_id": "ice_hockey",
+      "name": "NHL",
+      "description": "US Ice Hockey",
+      "id": 19
+    },
+    {
+      "key": "icehockey_nhl_championship_winner",
+      "sport_id": "ice_hockey",
+      "name": "NHL Championship Winner",
+      "description": "Stanley Cup Winner 2024/2025",
+      "id": 20
+    },
+    {
+      "key": "icehockey_sweden_allsvenskan",
+      "sport_id": "ice_hockey",
+      "name": "HockeyAllsvenskan",
+      "description": "Swedish Hockey Allsvenskan",
+      "id": 21
+    },
+    {
+      "key": "icehockey_sweden_hockey_league",
+      "sport_id": "ice_hockey",
+      "name": "SHL",
+      "description": "Swedish Hockey League",
+      "id": 22
+    },
+    {
+      "key": "mma_mixed_martial_arts",
+      "sport_id": "mixed_martial arts",
+      "name": "MMA",
+      "description": "Mixed Martial Arts",
+      "id": 23
+    },
+    {
+      "key": "politics_us_presidential_election_winner",
+      "sport_id": "politics",
+      "name": "US Presidential Elections Winner",
+      "description": "2024 US Presidential Election Winner",
+      "id": 24
+    },
+    {
+      "key": "rugbyleague_nrl",
+      "sport_id": "rugby_league",
+      "name": "NRL",
+      "description": "Aussie Rugby League",
+      "id": 25
+    },
+    {
+      "key": "soccer_argentina_primera_division",
+      "sport_id": "soccer",
+      "name": "Primera División - Argentina",
+      "description": "Argentine Primera División",
+      "id": 26
+    },
+    {
+      "key": "soccer_austria_bundesliga",
+      "sport_id": "soccer",
+      "name": "Austrian Football Bundesliga",
+      "description": "Austrian Soccer",
+      "id": 27
+    },
+    {
+      "key": "soccer_belgium_first_div",
+      "sport_id": "soccer",
+      "name": "Belgium First Div",
+      "description": "Belgian First Division A",
+      "id": 28
+    },
+    {
+      "key": "soccer_brazil_campeonato",
+      "sport_id": "soccer",
+      "name": "Brazil Série A",
+      "description": "Brasileirão Série A",
+      "id": 29
+    },
+    {
+      "key": "soccer_brazil_serie_b",
+      "sport_id": "soccer",
+      "name": "Brazil Série B",
+      "description": "Campeonato Brasileiro Série B",
+      "id": 30
+    },
+    {
+      "key": "soccer_chile_campeonato",
+      "sport_id": "soccer",
+      "name": "Primera División - Chile",
+      "description": "Campeonato Chileno",
+      "id": 31
+    },
+    {
+      "key": "soccer_china_superleague",
+      "sport_id": "soccer",
+      "name": "Super League - China",
+      "description": "Chinese Soccer",
+      "id": 32
+    },
+    {
+      "key": "soccer_conmebol_copa_libertadores",
+      "sport_id": "soccer",
+      "name": "Copa Libertadores",
+      "description": "CONMEBOL Copa Libertadores",
+      "id": 33
+    },
+    {
+      "key": "soccer_denmark_superliga",
+      "sport_id": "soccer",
+      "name": "Denmark Superliga",
+      "description": "Danish Soccer",
+      "id": 34
+    },
+    {
+      "key": "soccer_efl_champ",
+      "sport_id": "soccer",
+      "name": "Championship",
+      "description": "EFL Championship",
+      "id": 35
+    },
+    {
+      "key": "soccer_england_efl_cup",
+      "sport_id": "soccer",
+      "name": "EFL Cup",
+      "description": "League Cup",
+      "id": 36
+    },
+    {
+      "key": "soccer_england_league1",
+      "sport_id": "soccer",
+      "name": "League 1",
+      "description": "EFL League 1",
+      "id": 37
+    },
+    {
+      "key": "soccer_england_league2",
+      "sport_id": "soccer",
+      "name": "League 2",
+      "description": "EFL League 2 ",
+      "id": 38
+    },
+    {
+      "key": "soccer_epl",
+      "sport_id": "soccer",
+      "name": "EPL",
+      "description": "English Premier League",
+      "id": 39
+    },
+    {
+      "key": "soccer_fifa_world_cup_winner",
+      "sport_id": "soccer",
+      "name": "FIFA World Cup Winner",
+      "description": "FIFA World Cup Winner 2026",
+      "id": 40
+    },
+    {
+      "key": "soccer_finland_veikkausliiga",
+      "sport_id": "soccer",
+      "name": "Veikkausliiga - Finland",
+      "description": "Finnish  Soccer",
+      "id": 41
+    },
+    {
+      "key": "soccer_france_ligue_one",
+      "sport_id": "soccer",
+      "name": "Ligue 1 - France",
+      "description": "French Soccer",
+      "id": 42
+    },
+    {
+      "key": "soccer_france_ligue_two",
+      "sport_id": "soccer",
+      "name": "Ligue 2 - France",
+      "description": "French Soccer",
+      "id": 43
+    },
+    {
+      "key": "soccer_germany_bundesliga",
+      "sport_id": "soccer",
+      "name": "Bundesliga - Germany",
+      "description": "German Soccer",
+      "id": 44
+    },
+    {
+      "key": "soccer_germany_bundesliga2",
+      "sport_id": "soccer",
+      "name": "Bundesliga 2 - Germany",
+      "description": "German Soccer",
+      "id": 45
+    },
+    {
+      "key": "soccer_germany_liga3",
+      "sport_id": "soccer",
+      "name": "3. Liga - Germany",
+      "description": "German Soccer",
+      "id": 46
+    },
+    {
+      "key": "soccer_greece_super_league",
+      "sport_id": "soccer",
+      "name": "Super League - Greece",
+      "description": "Greek Soccer",
+      "id": 47
+    },
+    {
+      "key": "soccer_italy_serie_a",
+      "sport_id": "soccer",
+      "name": "Serie A - Italy",
+      "description": "Italian Soccer",
+      "id": 48
+    },
+    {
+      "key": "soccer_italy_serie_b",
+      "sport_id": "soccer",
+      "name": "Serie B - Italy",
+      "description": "Italian Soccer",
+      "id": 49
+    },
+    {
+      "key": "soccer_japan_j_league",
+      "sport_id": "soccer",
+      "name": "J League",
+      "description": "Japan Soccer League",
+      "id": 50
+    },
+    {
+      "key": "soccer_korea_kleague1",
+      "sport_id": "soccer",
+      "name": "K League 1",
+      "description": "Korean Soccer",
+      "id": 51
+    },
+    {
+      "key": "soccer_league_of_ireland",
+      "sport_id": "soccer",
+      "name": "League of Ireland",
+      "description": "Airtricity League Premier Division",
+      "id": 52
+    },
+    {
+      "key": "soccer_mexico_ligamx",
+      "sport_id": "soccer",
+      "name": "Liga MX",
+      "description": "Mexican Soccer",
+      "id": 53
+    },
+    {
+      "key": "soccer_netherlands_eredivisie",
+      "sport_id": "soccer",
+      "name": "Dutch Eredivisie",
+      "description": "Dutch Soccer",
+      "id": 54
+    },
+    {
+      "key": "soccer_norway_eliteserien",
+      "sport_id": "soccer",
+      "name": "Eliteserien - Norway",
+      "description": "Norwegian Soccer",
+      "id": 55
+    },
+    {
+      "key": "soccer_poland_ekstraklasa",
+      "sport_id": "soccer",
+      "name": "Ekstraklasa - Poland",
+      "description": "Polish Soccer",
+      "id": 56
+    },
+    {
+      "key": "soccer_portugal_primeira_liga",
+      "sport_id": "soccer",
+      "name": "Primeira Liga - Portugal",
+      "description": "Portugese Soccer",
+      "id": 57
+    },
+    {
+      "key": "soccer_spain_la_liga",
+      "sport_id": "soccer",
+      "name": "La Liga - Spain",
+      "description": "Spanish Soccer",
+      "id": 58
+    },
+    {
+      "key": "soccer_spain_segunda_division",
+      "sport_id": "soccer",
+      "name": "La Liga 2 - Spain",
+      "description": "Spanish Soccer",
+      "id": 59
+    },
+    {
+      "key": "soccer_spl",
+      "sport_id": "soccer",
+      "name": "Premiership - Scotland",
+      "description": "Scottish Premiership",
+      "id": 60
+    },
+    {
+      "key": "soccer_sweden_allsvenskan",
+      "sport_id": "soccer",
+      "name": "Allsvenskan - Sweden",
+      "description": "Swedish Soccer",
+      "id": 61
+    },
+    {
+      "key": "soccer_sweden_superettan",
+      "sport_id": "soccer",
+      "name": "Superettan - Sweden",
+      "description": "Swedish Soccer",
+      "id": 62
+    },
+    {
+      "key": "soccer_switzerland_superleague",
+      "sport_id": "soccer",
+      "name": "Swiss Superleague",
+      "description": "Swiss Soccer",
+      "id": 63
+    },
+    {
+      "key": "soccer_turkey_super_league",
+      "sport_id": "soccer",
+      "name": "Turkey Super League",
+      "description": "Turkish Soccer",
+      "id": 64
+    },
+    {
+      "key": "soccer_uefa_champs_league",
+      "sport_id": "soccer",
+      "name": "UEFA Champions League",
+      "description": "European Champions League",
+      "id": 65
+    },
+    {
+      "key": "soccer_uefa_europa_conference_league",
+      "sport_id": "soccer",
+      "name": "UEFA Europa Conference League",
+      "description": "UEFA Europa Conference League",
+      "id": 66
+    },
+    {
+      "key": "soccer_uefa_europa_league",
+      "sport_id": "soccer",
+      "name": "UEFA Europa League",
+      "description": "European Europa League",
+      "id": 67
+    },
+    {
+      "key": "soccer_usa_mls",
+      "sport_id": "soccer",
+      "name": "MLS",
+      "description": "Major League Soccer",
+      "id": 68
+    }
+  ]
+  

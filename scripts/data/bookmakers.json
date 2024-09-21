@@ -1,0 +1,151 @@
+[
+  { "name": "1xBet", "id": "1", "region_id": "1", "key": "onexbet" },
+  { "name": "888sport", "id": "2", "region_id": "1", "key": "sport888" },
+  { "name": "Betclic", "id": "3", "region_id": "1", "key": "betclic" },
+  {
+    "name": "BetAnySports",
+    "id": "4",
+    "region_id": "1",
+    "key": "betanysports"
+  },
+  {
+    "name": "Betfair Exchange",
+    "id": "5",
+    "region_id": "1",
+    "key": "betfair_ex_eu"
+  },
+  { "name": "BetOnline.ag", "id": "6", "region_id": "1", "key": "betonlineag" },
+  { "name": "Betsson", "id": "7", "region_id": "1", "key": "betsson" },
+  { "name": "Bet Victor", "id": "8", "region_id": "1", "key": "betvictor" },
+  { "name": "Coolbet", "id": "9", "region_id": "1", "key": "coolbet" },
+  { "name": "Everygame", "id": "10", "region_id": "1", "key": "everygame" },
+  { "name": "GTbets", "id": "11", "region_id": "1", "key": "gtbets" },
+  {
+    "name": "Livescorebet (EU)",
+    "id": "12",
+    "region_id": "1",
+    "key": "livescorebet_eu"
+  },
+  {
+    "name": "Marathon Bet",
+    "id": "13",
+    "region_id": "1",
+    "key": "marathonbet"
+  },
+  { "name": "Matchbook", "id": "14", "region_id": "1", "key": "matchbook" },
+  { "name": "MyBookie.ag", "id": "15", "region_id": "1", "key": "mybookieag" },
+  { "name": "NordicBet", "id": "16", "region_id": "1", "key": "nordicbet" },
+  { "name": "Pinnacle", "id": "17", "region_id": "1", "key": "pinnacle" },
+  { "name": "Suprabets", "id": "18", "region_id": "1", "key": "suprabets" },
+  { "name": "Tipico (DE)", "id": "19", "region_id": "1", "key": "tipico_de" },
+  { "name": "Unibet", "id": "20", "region_id": "1", "key": "unibet_eu" },
+  {
+    "name": "BetOnline.ag",
+    "id": "21",
+    "region_id": "2",
+    "key": "betonlineag"
+  },
+  { "name": "BetMGM", "id": "22", "region_id": "2", "key": "betmgm" },
+  { "name": "BetRivers", "id": "23", "region_id": "2", "key": "betrivers" },
+  { "name": "BetUS", "id": "24", "region_id": "2", "key": "betus" },
+  { "name": "Bovada", "id": "25", "region_id": "2", "key": "bovada" },
+  { "name": "Caesars", "id": "26", "region_id": "2", "key": "williamhill_us" },
+  { "name": "DraftKings", "id": "27", "region_id": "2", "key": "draftkings" },
+  { "name": "FanDuel", "id": "28", "region_id": "2", "key": "fanduel" },
+  { "name": "LowVig.ag", "id": "29", "region_id": "2", "key": "lowvig" },
+  { "name": "MyBookie.ag", "id": "30", "region_id": "2", "key": "mybookieag" },
+  { "name": "SuperBook", "id": "31", "region_id": "2", "key": "superbook" },
+  { "name": "Unibet", "id": "32", "region_id": "2", "key": "unibet_us" },
+  { "name": "WynnBET", "id": "33", "region_id": "2", "key": "wynnbet" },
+  { "name": "Bally Bet", "id": "34", "region_id": "2", "key": "ballybet" },
+  {
+    "name": "BetAnySports",
+    "id": "35",
+    "region_id": "2",
+    "key": "betanysports"
+  },
+  { "name": "betPARX", "id": "36", "region_id": "2", "key": "betparx" },
+  { "name": "ESPN BET", "id": "37", "region_id": "2", "key": "espnbet" },
+  { "name": "Fliff", "id": "38", "region_id": "2", "key": "fliff" },
+  {
+    "name": "Hard Rock Bet",
+    "id": "39",
+    "region_id": "2",
+    "key": "hardrockbet"
+  },
+  {
+    "name": "SI Sportsbook",
+    "id": "40",
+    "region_id": "2",
+    "key": "sisportsbook"
+  },
+  { "name": "Wind Creek", "id": "41", "region_id": "2", "key": "windcreek" },
+  {
+    "name": "William Hill",
+    "id": "42",
+    "region_id": "1",
+    "key": "williamhill"
+  },
+  { "name": "888sport", "id": "43", "region_id": "3", "key": "sport888" },
+  {
+    "name": "Betfair Exchange",
+    "id": "44",
+    "region_id": "3",
+    "key": "betfair_ex_uk"
+  },
+  {
+    "name": "Betfair Sportsbook",
+    "id": "45",
+    "region_id": "3",
+    "key": "betfair_sb_uk"
+  },
+  { "name": "Bet Victor", "id": "46", "region_id": "3", "key": "betvictor" },
+  { "name": "Betway", "id": "47", "region_id": "3", "key": "betway" },
+  { "name": "BoyleSports", "id": "48", "region_id": "3", "key": "boylesports" },
+  { "name": "Casumo", "id": "49", "region_id": "3", "key": "casumo" },
+  { "name": "Coral", "id": "50", "region_id": "3", "key": "coral" },
+  { "name": "Grosvenor", "id": "51", "region_id": "3", "key": "grosvenor" },
+  { "name": "Ladbrokes", "id": "52", "region_id": "3", "key": "ladbrokes_uk" },
+  { "name": "LeoVegas", "id": "53", "region_id": "3", "key": "leovegas" },
+  {
+    "name": "LiveScore Bet",
+    "id": "54",
+    "region_id": "3",
+    "key": "livescorebet"
+  },
+  { "name": "Matchbook", "id": "55", "region_id": "3", "key": "matchbook" },
+  { "name": "Mr Green", "id": "56", "region_id": "3", "key": "mrgreen" },
+  { "name": "Paddy Power", "id": "57", "region_id": "3", "key": "paddypower" },
+  { "name": "Sky Bet", "id": "58", "region_id": "3", "key": "skybet" },
+  { "name": "Unibet", "id": "59", "region_id": "3", "key": "unibet_uk" },
+  { "name": "Virgin Bet", "id": "60", "region_id": "3", "key": "virginbet" },
+  {
+    "name": "William Hill (UK)",
+    "id": "61",
+    "region_id": "3",
+    "key": "williamhill"
+  },
+  {
+    "name": "Betfair Exchange",
+    "id": "62",
+    "region_id": "4",
+    "key": "betfair_ex_au"
+  },
+  { "name": "Betr", "id": "63", "region_id": "4", "key": "betr_au" },
+  { "name": "Bet Right", "id": "64", "region_id": "4", "key": "betright" },
+  { "name": "BlueBet", "id": "65", "region_id": "4", "key": "bluebet" },
+  { "name": "Ladbrokes", "id": "66", "region_id": "4", "key": "ladbrokes_au" },
+  { "name": "Neds", "id": "67", "region_id": "4", "key": "neds" },
+  { "name": "PlayUp", "id": "68", "region_id": "4", "key": "playup" },
+  {
+    "name": "PointsBet (AU)",
+    "id": "69",
+    "region_id": "4",
+    "key": "pointsbetau"
+  },
+  { "name": "SportsBet", "id": "70", "region_id": "4", "key": "sportsbet" },
+  { "name": "TAB", "id": "71", "region_id": "4", "key": "tab" },
+  { "name": "TABtouch", "id": "72", "region_id": "4", "key": "tabtouch" },
+  { "name": "TopSport", "id": "73", "region_id": "4", "key": "topsport" },
+  { "name": "Unibet", "id": "74", "region_id": "4", "key": "unibet" }
+]
