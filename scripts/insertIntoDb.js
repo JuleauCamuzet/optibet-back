@@ -193,12 +193,20 @@ const client = new Client({
                     date,
                     bet_a_id,
                     bet_b_id,
-                    benefits
+                    benefits,
+                    league_id
                 ) VALUES (
-                    $1, $2, $3, $4, $5
+                    $1, $2, $3, $4, $5, $6
                 );
                 `,
-          [move.id, move.date, move.bet_a_id, move.bet_b_id, move.benefits]
+          [
+            move.id,
+            move.date,
+            move.bet_a_id,
+            move.bet_b_id,
+            move.benefits,
+            move.league_id,
+          ]
         )
       })
     )

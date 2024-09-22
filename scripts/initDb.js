@@ -132,9 +132,11 @@ const client = new Client({
             bet_a_id VARCHAR,
             bet_b_id VARCHAR,
             benefits NUMERIC,
+            league_id VARCHAR,
             created_at TIMESTAMP DEFAULT NOW(),
             FOREIGN KEY (bet_a_id) REFERENCES bets(id),
-            FOREIGN KEY (bet_b_id) REFERENCES bets(id)
+            FOREIGN KEY (bet_b_id) REFERENCES bets(id),
+            FOREIGN KEY (league_id) REFERENCES leagues(id)
         );
     `)
 
