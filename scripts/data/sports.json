@@ -9,6 +9,5 @@
   { "id": "ice_hockey", "name": "Ice Hockey" },
   { "id": "mixed_martial arts", "name": "Mixed Martial Arts" },
   { "id": "politics", "name": "Politics" },
-  { "id": "rugby_league", "name": "Rugby League" },
-  { "id": "soccer", "name": "Soccer" }
+  { "id": "rugby_league", "name": "Rugby League" }
 ]
