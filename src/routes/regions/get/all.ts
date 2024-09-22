@@ -4,8 +4,9 @@ import { Client } from 'pg'
 import { getAllRegions } from '../../../modules/db/regions/getAllRegions'
 import { checkIfDbError } from '../../../types/errors/db'
 import { dbErroToLog } from '../../../helpers/logs/dbErrorToLog'
+import { getAllRegionsRouteErrors } from '../../../types/errors/routes/regions/all'
 
-export const getRegionsRoute = (app: Express, client: Client) => {
+export const getAllRegionsRoute = (app: Express, client: Client) => {
   app.get('/regions', async (req, res) => {
     try {
       const result = await getAllRegions(client)
@@ -13,10 +14,7 @@ export const getRegionsRoute = (app: Express, client: Client) => {
       if (checkIfDbError(result)) {
         dbErroToLog(result)
 
-        res.status(400).send({
-          code: 'UNKNOWN',
-          message: 'An unknown error has occured.',
-        })
+        res.status(400).send(getAllRegionsRouteErrors.UNKNOWN)
         return
       }
 
@@ -24,10 +22,7 @@ export const getRegionsRoute = (app: Express, client: Client) => {
       return
     } catch (error) {
       console.error(error)
-      res.status(400).send({
-        code: 'UNKNOWN',
-        message: 'An unknown error has occured',
-      })
+      res.status(400).send(getAllRegionsRouteErrors.UNKNOWN)
       return
     }
   })

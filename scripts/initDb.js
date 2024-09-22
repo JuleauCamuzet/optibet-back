@@ -71,7 +71,8 @@ const client = new Client({
         CREATE TABLE IF NOT EXISTS regions (
           id VARCHAR PRIMARY KEY,
           key VARCHAR,
-          name VARCHAR
+          name VARCHAR,
+          created_at TIMESTAMP DEFAULT NOW()
         );
       `)
 

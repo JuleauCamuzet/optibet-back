@@ -1,9 +1,8 @@
 export type Bet = {
   id: string
   team_name: string
-  odd: number
+  odd: string
   bookmaker_id: string
-  created_at: Date
 }
 
 export const checkIfBet = (val: any): val is Bet => {
@@ -11,9 +10,8 @@ export const checkIfBet = (val: any): val is Bet => {
     val &&
     typeof val.id === 'string' &&
     typeof val.team_name === 'string' &&
-    typeof val.odd === 'number' &&
-    typeof val.bookmaker_id === 'string' &&
-    val.created_at instanceof Date
+    typeof val.odd === 'string' &&
+    typeof val.bookmaker_id === 'string'
   )
 }
 

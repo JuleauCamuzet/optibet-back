@@ -1,8 +1,10 @@
 import { Express } from 'express'
 import { Client } from 'pg'
+
 import { getAllMoves } from '../../../modules/db/moves/getAllMoves'
 import { checkIfDbError } from '../../../types/errors/db'
 import { dbErroToLog } from '../../../helpers/logs/dbErrorToLog'
+import { getAllMovesRouteErrors } from '../../../types/errors/routes/moves/all'
 
 export const getAllMovesRoute = (app: Express, client: Client) => {
   app.get('/moves', async (req, res) => {
@@ -12,10 +14,7 @@ export const getAllMovesRoute = (app: Express, client: Client) => {
       if (checkIfDbError(result)) {
         dbErroToLog(result)
 
-        res.status(400).send({
-          code: 'UNKNOWN',
-          message: 'An unknown error has occured',
-        })
+        res.status(400).send(getAllMovesRouteErrors.UNKNOWN)
         return
       }
 
@@ -24,10 +23,7 @@ export const getAllMovesRoute = (app: Express, client: Client) => {
     } catch (error) {
       console.error(error)
 
-      res.status(400).send({
-        code: 'UNKNOWN',
-        message: 'An unknown error has occured',
-      })
+      res.status(400).send(getAllMovesRouteErrors.UNKNOWN)
       return
     }
   })

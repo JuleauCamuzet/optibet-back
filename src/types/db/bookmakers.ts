@@ -3,7 +3,6 @@ export type Bookmaker = {
   name: string
   key: string
   region_id: string
-  created_at: Date
 }
 
 export const checkIfBookmaker = (val: any): val is Bookmaker => {
@@ -12,8 +11,7 @@ export const checkIfBookmaker = (val: any): val is Bookmaker => {
     typeof val.id === 'string' &&
     typeof val.name === 'string' &&
     typeof val.key === 'string' &&
-    typeof val.region_id === 'string' &&
-    val.created_at instanceof Date
+    typeof val.region_id === 'string'
   )
 }
 

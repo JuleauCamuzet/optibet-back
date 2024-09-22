@@ -11,7 +11,7 @@ import { checkIfRegionArray, Region } from '../../../types/db/regions'
 export const getAllRegionsFromDb = async (
   client: Client
 ): Promise<Region[] | DbError> => {
-  const res = await getManyRows(`SELECT * FROM regions`, [], client)
+  const res = await getManyRows(`SELECT id, key, name FROM regions`, [], client)
 
   if (checkIfDbError(res) || checkIfRegionArray(res)) {
     return res

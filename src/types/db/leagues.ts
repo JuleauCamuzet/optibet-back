@@ -4,7 +4,6 @@ export type League = {
   sport_id: string
   name: string
   description: string
-  created_at: Date
 }
 
 export const checkIfLeague = (val: any): val is League => {
@@ -14,8 +13,7 @@ export const checkIfLeague = (val: any): val is League => {
     typeof val.key === 'string' &&
     typeof val.sport_id === 'string' &&
     typeof val.name === 'string' &&
-    typeof val.description === 'string' &&
-    val.created_at instanceof Date
+    typeof val.description === 'string'
   )
 }
 

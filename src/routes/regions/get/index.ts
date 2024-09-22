@@ -1,8 +1,8 @@
 import { Express } from 'express'
 import { Client } from 'pg'
 
-import { getRegionsRoute } from './all'
+import { getAllRegionsRoute } from './all'
 
 export const addRegionsGetRoutes = (app: Express, client: Client) => {
-  getRegionsRoute(app, client)
+  getAllRegionsRoute(app, client)
 }

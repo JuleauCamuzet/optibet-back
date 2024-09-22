@@ -1,16 +1,10 @@
 export type Sport = {
   id: string
   name: string
-  created_at: Date
 }
 
 export const checkIfSport = (val: any): val is Sport => {
-  return (
-    val &&
-    typeof val.id === 'string' &&
-    typeof val.name === 'string' &&
-    val.created_at instanceof Date
-  )
+  return val && typeof val.id === 'string' && typeof val.name === 'string'
 }
 
 export const checkIfSportArray = (val: any): val is Sport[] => {
