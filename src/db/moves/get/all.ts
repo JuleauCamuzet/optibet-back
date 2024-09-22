@@ -12,7 +12,7 @@ export const getAllMovesFromDb = async (
   client: Client
 ): Promise<Move[] | DbError> => {
   const result = await getManyRows(
-    `SELECT id, date, bet_a_id, bet_b_id, benefits FROM moves`,
+    `SELECT id, date, bet_a_id, bet_b_id, benefits, league_id FROM moves`,
     [],
     client
   )

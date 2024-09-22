@@ -4,6 +4,7 @@ export type Move = {
   bet_a_id: string
   bet_b_id: string
   benefits: string
+  league_id: string
 }
 
 export const checkIfMove = (val: any): val is Move => {
@@ -13,7 +14,8 @@ export const checkIfMove = (val: any): val is Move => {
     val.date instanceof Date &&
     typeof val.bet_a_id === 'string' &&
     typeof val.bet_b_id === 'string' &&
-    typeof val.benefits === 'string'
+    typeof val.benefits === 'string' &&
+    typeof val.league_id === 'string'
   )
 }
 
