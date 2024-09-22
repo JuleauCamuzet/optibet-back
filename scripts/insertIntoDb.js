@@ -62,12 +62,19 @@ const client = new Client({
                 id,
                 key,
                 sport_id,
-                name
+                name,
+                description
             ) VALUES (
-                $1, $2, $3, $4 
+                $1, $2, $3, $4, $5
             )
             `,
-          [league.id, league.key, league.sport_id, league.name]
+          [
+            league.id,
+            league.key,
+            league.sport_id,
+            league.name,
+            league.description,
+          ]
         )
       })
     )
