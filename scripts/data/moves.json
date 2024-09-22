@@ -4,7 +4,7 @@
     "date": "2024-10-05 14:30:00",
     "bet_a_id": "1",
     "bet_b_id": "2",
-    "benefits": 20.45,
+    "benefits": 35.78,
     "league_id": 18
   },
   {
@@ -12,7 +12,7 @@
     "date": "2024-11-12 16:45:00",
     "bet_a_id": "3",
     "bet_b_id": "4",
-    "benefits": 20.45,
+    "benefits": 47.12,
     "league_id": 5
   },
   {
@@ -20,7 +20,7 @@
     "date": "2024-12-25 19:00:00",
     "bet_a_id": "5",
     "bet_b_id": "6",
-    "benefits": 20.45,
+    "benefits": 62.49,
     "league_id": 17
   },
   {
@@ -28,7 +28,7 @@
     "date": "2024-10-18 13:00:00",
     "bet_a_id": "7",
     "bet_b_id": "8",
-    "benefits": 20.45,
+    "benefits": 28.34,
     "league_id": 2
   },
   {
@@ -36,7 +36,7 @@
     "date": "2024-11-05 17:15:00",
     "bet_a_id": "9",
     "bet_b_id": "10",
-    "benefits": 20.45,
+    "benefits": 54.67,
     "league_id": 24
   },
   {
@@ -44,7 +44,7 @@
     "date": "2024-12-14 20:30:00",
     "bet_a_id": "11",
     "bet_b_id": "12",
-    "benefits": 20.45,
+    "benefits": 19.85,
     "league_id": 12
   },
   {
@@ -52,7 +52,7 @@
     "date": "2024-10-30 15:30:00",
     "bet_a_id": "13",
     "bet_b_id": "14",
-    "benefits": 20.45,
+    "benefits": 33.90,
     "league_id": 2
   },
   {
@@ -60,7 +60,7 @@
     "date": "2024-12-01 18:00:00",
     "bet_a_id": "15",
     "bet_b_id": "16",
-    "benefits": 20.45,
+    "benefits": 41.23,
     "league_id": 16
   },
   {
@@ -68,7 +68,7 @@
     "date": "2024-12-21 19:45:00",
     "bet_a_id": "17",
     "bet_b_id": "18",
-    "benefits": 20.45,
+    "benefits": 29.56,
     "league_id": 22
   },
   {
@@ -76,7 +76,7 @@
     "date": "2024-10-25 12:00:00",
     "bet_a_id": "19",
     "bet_b_id": "20",
-    "benefits": 20.45,
+    "benefits": 48.19,
     "league_id": 22
   },
   {
@@ -84,7 +84,7 @@
     "date": "2024-11-10 16:00:00",
     "bet_a_id": "21",
     "bet_b_id": "22",
-    "benefits": 20.45,
+    "benefits": 36.75,
     "league_id": 19
   },
   {
@@ -92,7 +92,7 @@
     "date": "2024-12-28 20:45:00",
     "bet_a_id": "23",
     "bet_b_id": "24",
-    "benefits": 20.45,
+    "benefits": 50.02,
     "league_id": 4
   },
   {
@@ -100,7 +100,7 @@
     "date": "2024-11-23 14:15:00",
     "bet_a_id": "25",
     "bet_b_id": "26",
-    "benefits": 20.45,
+    "benefits": 27.68,
     "league_id": 25
   },
   {
@@ -108,7 +108,7 @@
     "date": "2024-12-10 19:30:00",
     "bet_a_id": "27",
     "bet_b_id": "28",
-    "benefits": 20.45,
+    "benefits": 44.31,
     "league_id": 5
   },
   {
@@ -116,7 +116,7 @@
     "date": "2024-12-04 17:00:00",
     "bet_a_id": "29",
     "bet_b_id": "30",
-    "benefits": 20.45,
+    "benefits": 39.54,
     "league_id": 20
   }
 ]

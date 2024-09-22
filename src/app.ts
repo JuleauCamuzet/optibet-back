@@ -1,11 +1,15 @@
 import Express from 'express'
 import { configDotenv } from 'dotenv'
 import { Client } from 'pg'
+import cors from 'cors'
+
 import { addRoutes } from './router'
 
 configDotenv()
 
 const app = Express()
+
+app.use(cors())
 
 const port = process.env.PORT ?? '8000'
 
