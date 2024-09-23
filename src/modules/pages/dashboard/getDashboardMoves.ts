@@ -55,7 +55,7 @@ export const getDashboardMoves = async (
     sports,
   })
 
-  if (regionFilter) {
+  if (regionFilter && regionFilter !== 'all') {
     dashboardMoves = dashboardMoves.filter(move => {
       const regionMove: Region | undefined = regions.find(region => region.id === move.region.id)
 
@@ -63,7 +63,7 @@ export const getDashboardMoves = async (
     })
   }
 
-  if (sportFilter) {
+  if (sportFilter && sportFilter !== 'all') {
     dashboardMoves = dashboardMoves.filter(move => move.sport.id === sportFilter)
   }
 
