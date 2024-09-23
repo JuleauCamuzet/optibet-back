@@ -7,6 +7,7 @@ import { addBetsRoutes } from './routes/bets'
 import { addSportsRoutes } from './routes/sports'
 import { addLeaguesRoutes } from './routes/leagues'
 import { addBookmakersRoutes } from './routes/bookmakers'
+import { addPagesRoutes } from './routes/pages'
 
 export const addRoutes = (app: Express, client: Client) => {
   addRegionsRoutes(app, client)
@@ -15,4 +16,5 @@ export const addRoutes = (app: Express, client: Client) => {
   addSportsRoutes(app, client)
   addLeaguesRoutes(app, client)
   addBookmakersRoutes(app, client)
+  addPagesRoutes(app, client)
 }
